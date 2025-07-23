@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use eframe::{egui, App};
 use serde::{Deserialize, Serialize};
 use egui::ViewportBuilder;
